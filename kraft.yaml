@@ -1,0 +1,15 @@
+---
+specification: '0.5'
+name: newlib
+unikraft:
+  version: 825b115
+targets:
+  - architecture: x86_64
+    platform: linuxu
+libraries:
+  newlib:
+    version: 78263bd
+  lwip:
+    version: 34d9e5f
+  postgres:
+    version: 312ff8b
